@@ -243,3 +243,17 @@ MIT License
 
 - 이슈 트래커: GitHub Issues
 - 이메일: contact@example.com
+
+```bash
+python3 realtime_panorama_stitcher_v6.py \
+    --mode test \
+    --input_dir ~/뉴딕스\ 작업파일/20251228panoram_test_v2/calibration_data_chain_edge_8cam \
+    --num_frames 10 \
+    --reference_frame 7 \
+    --scale 0.8 \
+    --camera_order 5 4 3 2 1 8 7 6 \
+    --try_use_gpu \
+    --crop_edges 2 \
+    --save_images panorama_v6_gpu \
+    --save_reference reference_v6_gpu.jpg
+```
