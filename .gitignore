@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# 가상환경
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 출력 파일
+*.jpg
+*.png
+*.mp4
+*.avi
+panorama_*.jpg
+output*.mp4
+
+# 테스트 데이터
+test_images/
+calibration_data/
+
+# 로그
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 임시 파일
+*.tmp
+*.bak
